@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.cf:before, .cf:after{
+	content: " ";
+	display: table;
+}
+.cf:after{
+	clear:both;
+}
+.media {margin:10px;}
+.media, .bd {
+	overflow:hidden; 
+	overflow:visible; 
+	zoom:1;
+	color: #007A90;
+}
+.media .imgExt{float:right; margin-left: 10px;} 
+.element{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}

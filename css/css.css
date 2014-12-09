@@ -1,0 +1,898 @@
+*{
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+/*Breakpoints:
+@include bp([small, medium, large])*/
+/*@mixin bp($point) {
+
+  $bp-small: "(min-width: #{$width-small})";
+  $bp-medium: "(min-width: #{$width-medium})";
+  $bp-large: "(min-width: #{$width-large})";
+
+  @if $point == small {
+    @media #{$bp-small} { @content; }
+  }
+  @else if $point == medium {
+    @media #{$bp-medium} { @content; }
+  }
+  @else if $point == large {
+    @media #{$bp-large}  { @content; }
+  }
+}
+*/
+____________________________________________________________________________________
+body, html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  font-size: 15px;
+  background: #000;
+}
+.margin_home{
+  margin-top: 95px !important;
+}
+.background_home{
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/backgrounds/texture9.png") !important;
+}
+/*PROFILE*/
+body, html .container_profile{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  font-size: 15px;
+  background: #000;
+  text-align: center;
+}
+.container_profile{
+  width: 95%;
+  display: inline-block;
+  color: white;
+}
+/*PLAY*/
+#play{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  font-size: 15px;
+  //background: #B5B5B5 !important;
+  background-image: url("../images/backgrounds/large/tab1.jpg") !important;
+  background-position: center;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+}
+#play1{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  font-size: 15px;
+  //background: #B5B5B5 !important;
+  background-image: url("../images/backgrounds/large/7.jpg") !important;
+  background-position: center;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+}
+_______________________________________________:;______________________________________
+
+
+
+____________________________________________________________________________________
+/*HEADER STYLE*/
+header
+{
+  display: block;
+  text-align: center;
+}
+header h1
+{
+  margin: 0 auto;
+  font-family: 'Titan One' !important;
+  text-align: center;
+  font-size:4em;
+  color: #fff;
+  text-shadow:0px 4px 8px #00485E;
+}
+//RED= #AB0000; || GRAY= #4C4C4C; || BLUE= #00485E; || GREEN= #136C00; 
+//BLUE SOFT= #00ABAB; || VIOLET= #56009B; || PINK= #B3007A; || WHITE= #E5E5E5;
+header .log_out{
+  margin: 0px 0px 0px 350px;
+  text-shadow: 1px 0px 3px rgba(255,255,255,0.4);
+}
+.log_out_account_and_profile, .log_out_about_us, .log_out_help, .log_out_settings, .log_out_games, .log_out_avatars, .log_out_backgrounds{
+  margin: 0px 0px 0px 350px;
+  text-shadow: 1px 0px 3px rgba(255,255,255,0.4);
+}
+a {
+  color: #00485E;
+  text-decoration: none;
+}
+header .blinds{
+  margin: 0px 0px 0px 350px;
+  color: gray;
+  text-shadow: 1px 0px 3px rgba(255,255,255,0.4);
+}
+header .blinds1{
+  margin: 0px 0px 0px 350px;
+  color: rgb(171, 179, 255);
+  text-shadow: 1px 0px 3px rgba(255,255,255,0.4);
+}
+//RED= #AB0000; || GRAY= #4C4C4C; || BLUE= #00485E; || GREEN= #136C00; 
+//BLUE SOFT= #00ABAB; || VIOLET= #56009B; || PINK= #B3007A; || WHITE= #E5E5E5; || Orange= #D34800;
+/*END HEADER STYLE*/
+____________________________________________________________________________________
+
+
+
+____________________________________________________________________________________
+/*MAIN STYLE*/
+/*FORMULARIO LOG IN*/
+label { 
+  font-weight: 
+  bold; 
+  color: #444; 
+  font-size: 14px; 
+}
+
+input { 
+  font-size: 14px; 
+}
+
+input[type="text"] { 
+  margin: 10px 0; 
+  background: #fff; 
+  border: 1px solid #ccc; 
+  color: #777; 
+  display: block; 
+  max-width: 100%; 
+  outline: none; 
+  padding: 7px 8px; 
+}
+
+input[type="submit"] { 
+  margin: 10px 0; 
+  background: #0088B2; 
+  color: #fff; 
+  padding: 8px 14px; 
+  font-weight: bold; 
+  display: inline-block; 
+  border: none; 
+  cursor: pointer; }
+
+input[type="submit"]:hover { 
+  background: #444; 
+}
+
+_______________________________________________________________________
+
+
+section .section_my_profile{
+  margin-top: -10px !important;
+}
+.table {
+  display: block;
+  width: 100%;
+  width: 600px;
+  height: 300px;
+  margin: 30% auto;
+  border-radius: 100px / 50px;
+  font-size: 20px;
+  text-align: center;
+  background: black;
+  text-decoration: none;
+  color: #fff;
+  padding: 6px;
+  border-radius: 10px;
+}
+ .text{
+  width: 400px;
+  margin: 10px auto;
+  color: #fff;8
+ }
+#text_profile{
+  width: 95%;
+  margin: 0px auto;
+  color: #fff;
+  font-size: 12px;
+ }
+ #text_header_profile{
+  width: 95%;
+  margin: 0px auto;
+  color: #fff;
+  font-size: 16px;
+ }
+ .text_ty{
+  text-align: center;
+ }
+ #hand_text{
+  height: 10px;
+  font-size: 10px;
+  margin-bottom: 0px;
+  margin: -5px 0 0 -315px;
+  color: #fff;
+ }
+ #hand_margin{
+  margin: 10px 0 -10px 10px;
+ }
+ #logo{
+  display: block;
+  margin:0 auto;
+ }
+#button{
+  display: block;
+  width: 260px;
+  height: 65px;
+  margin: 30px auto;
+  font-size: 32px;
+  text-align: center;
+  background: #00485E;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow:0 4px 8px white;
+}
+#button:hover{
+  background: #007A90;
+  text-shadow: 0 0 0.04em #fff, 0 0 0.04em #fff;
+}
+//RED= #AB0000; || GRAY= #4C4C4C; || BLUE= #00485E; || GREEN= #136C00; 
+//BLUE SOFT= #00ABAB; || VIOLET= #56009B; || PINK= #B3007A; || WHITE= #E5E5E5; || Orange= #D34800;
+
+
+
+.apuesta{
+  display: block;
+  width: 100px;
+  height: 40px;
+  margin: 30px auto;
+  font-size: 12px;
+  text-align: center;
+  background: #00485E;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 40px;
+}
+.apuesta:hover{
+  background: #007A90;
+  text-shadow: 0 0 0.04em #fff, 0 0 0.04em #fff;
+}
+.img_profile{
+  border-radius: 40px;
+  box-shadow: 0 0px 60px #00485E;
+}
+.trapezoide {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 20px;
+  margin-top: 50px;
+  border-bottom: 250px solid #007A90;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+}
+.trapezoide h1 {
+  margin: 10px auto;
+  margin-left: 10px;
+  font-family: 'Titan One' !important;
+  text-align: center; 
+  font-size:1.6em;
+  color: #fff;
+}
+.trapezoide p {
+  margin: 10px auto;
+  margin-left: 10px;
+  font-family: 'Titan One' !important;
+  text-align: center; 
+  font-size:1em;
+  color: #fff;
+}
+.border_trapezoide{
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 2px;
+  border: 15px solid #00485E; 
+  border-bottom: 250px
+  -webkit-box-shadow:0 20px 60px black;
+  -moz-box-shadow:0 20px 60px black;
+  -ms-box-shadow:0 20px 60px black;
+  -o-box-shadow:0 20px 60px black;
+  box-shadow: 0 15px 8px black;
+  
+}
+@-webkit-keyframes girando {
+  from { -webkit-transform: rotateX(-60deg);    }
+  to   { -webkit-transform: rotateX(-60deg); }
+}
+.girando {
+  margin: 70px 0px 0px -30px;
+  position: absolute;
+  -webkit-animation-name: girando;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 6s;
+  -webkit-transform-style: preserve-3d;
+  text-shadow: 0 0 3.04em #000225, 0 0 2.04em #040017;
+}
+#juego_responsable{
+  color: #4C4C4C; 
+  text-decoration: underline;
+  margin: 0px -140px 0px 0px;
+}
+/*Chat of play:*/
+.box h3{
+  text-align:left;
+  font-family: Arial;
+  color: #EA0000;
+  font-size: 14px;
+}
+.box h4 {
+  text-align: left;
+  font-family: Arial;
+  color: #fff;
+  font-size: 10px;
+}
+.box {
+  width:50%;
+  height:150px;
+  background: #005E5E;
+  margin:40px auto;
+}
+.effect5
+{
+  position: absolute;
+  margin: -80px 0 0 8px;
+  border-radius: 8px;
+  box-shadow: 0 -2px 20px #050632;
+  border: 8px solid #062B35;
+}
+.effect5:before, .effect5:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 35px 20px #000132;
+  -moz-box-shadow: 0 35px 20px #000132;
+  box-shadow: 0 35px 20px #000132;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+.effect5:after
+{
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: 10px;
+  left: auto;
+}
+/*END MAIN STYLE*/
+_________________________________________________________________________________
+
+
+
+__________________________________________________________________________________
+/*FOOTER STYLE*/
+footer .margin_my_account{
+  margin-top: 170px !important;
+}
+.margin_my_profile, .margin_contact{
+  margin-top: 100px !important;
+}
+.margin_about_us{
+  margin-top: 30px !important;
+}
+footer .social{
+  width: 100%;
+}
+footer .social_home{
+  width: 210px;  
+  height: 60px;
+  margin: 0px auto;
+  text-align: center;
+}
+footer .social_contact{
+  width: 210px;  
+  height: 60px;
+  margin: -60px auto;
+  text-align: center;
+}
+footer .social_about_us{
+  width: 210px;  
+  height: 60px;
+  margin: -30px auto;
+  text-align: center;
+}
+footer .social_my_account{
+  width: 270px;  
+  height: 60px;
+  margin: 30px auto;
+  text-align: center;
+}
+footer .social_play{
+  width: 270px;  
+  height: 60px;
+  margin: 0px auto;
+  text-align: center;
+}
+footer .social_log_in{
+  width: 210px;  
+  height: 60px;
+  margin: 80px auto;
+  text-align: center;
+}
+footer .social_register{
+  width: 210px;  
+  height: 60px;
+  margin: 20px auto;
+  text-align: center;
+}
+#congratulation_register{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+}
+#congratulation_login{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 32px;
+  color: #fff;
+  text-shadow: 0 3px 0px #00485E;
+}
+footer .social_my_profile{
+  width: 210px;  
+  height: 60px;
+  margin: 80px auto;
+  text-align: center;
+}
+footer .social_select_background{
+  width: 210px; 
+  height: 60px;
+  margin: 0px auto;
+  text-align: center;
+}
+footer .social_select_avatars{
+  width: 210px; 
+  height: 60px;
+  margin: 80px auto;
+  text-align: center;
+}
+footer ul .icons_social{
+  width: 100%;
+}
+footer ul.icons_social li{
+  display: block;
+  float: left;
+  margin: 65px 20px 5px 0;
+  width: 50px;
+  height: 51px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px white;
+}
+.icons_social li a{
+  display: block;
+  width: 50px;
+  height: 51px;
+}
+.facebook, .twitter, .google{
+  background: url("../images/icons_social.png") no-repeat;
+}
+.facebook{
+  background-position: -32 -16;
+}
+.twitter{
+  background-position: -95 -16;
+}
+.google{
+  background-position: -160 -16;
+}
+.copyright{
+width: 100%;
+margin: 70px auto;
+text-align: center;
+font-size: 12px;
+color: #FFF;
+}
+#copyright_account{
+  width: 100%;
+  margin: 75px auto;
+  text-align: center;
+  font-size: 12px;
+  color: #FFF;
+}
+#copyright_home{
+  width: 100%;
+margin: 70px auto;
+text-align: center;
+font-size: 12px;
+color: #FFF;
+}
+
+.copyright_contact{
+  width: 100%;
+  margin: 130px auto;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+.copyright_about_us{
+  width: 100%;
+  margin: 100px auto;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+.copyright_log_in{
+  width: 100%;
+  margin: -10px auto;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+.copyright_register{
+  width: 100%;
+  margin: 70px auto;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+.copyright_my_profile{
+  width: 100%;
+  margin: 80px auto;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+} 
+.copyright_select_background{
+  width: 100%;
+  margin: 72px auto;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+.about_us{
+  margin-left: 80px;
+  text-decoration: none;
+  color:  #FFF;
+}
+
+/*Social of Profile*/
+.social_profile{
+  width: 180px;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+.icons_social_profile{
+  list-style: none;
+  padding: 0;
+}
+footer ul .icons_social_profile li{
+  display: block;
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  float: left !important;
+  border: 1px solid #000;
+  text-indent: -99999px;
+}
+.icons_social_profile li a {
+display: block;
+width: 35px;
+height: 35px;
+}
+.facebook_profile, .twitter_profile, .googlePlus_profile, .instagram_profile{
+  background: url("../images/social_profile.png")no-repeat;
+}
+.facebook_profile{
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  background-position: 0 0;
+  float: left;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px white;
+}
+.twitter_profile{
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  background-position: -40px 0;
+  float: left;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px white;
+}
+.googlePlus_profile{
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  background-position: -80px 0;
+  float: left;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px white;
+}
+.instagram_profile{
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  background-position: -120px 0;
+  float: left;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px white;
+}
+/*END FOOTER STYLE*/
+_________________________________________________________________________________
+
+
+
+
+_________________________________________________________________________________
+/*MORE*/
+/*0
+@include bp(small){
+}
+
+@include bp(medium){
+}
+*/
+
+
+/*1 
+.main{
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: black;
+  //background-position: center;
+  //background-repeat: no-repeat;
+  //background-size: cover;
+}
+.main img{
+  display: block;
+  margin: ;
+}
+*/
+
+
+/*2
+.reproductor{
+  width="240";
+  height="20";
+}
+*/
+
+
+/*3
+/*MENU 0*/
+/* image animating out one at a time */
+/*
+.menu {height:60px; padding:0px; margin:0px;}
+ 
+.menu img {
+ height:60px;
+ padding:0px;
+ margin:0px;
+ width:auto;
+ opacity:0;
+ position:relative;
+ left:-18px;
+ -webkit-transition: all .5s ease;
+}
+.menu.open img {
+ opacity:1;
+ left:0px;
+}
+.menu-bar {
+ position:absolute;
+ left:-50px;
+ top:0px;
+ width:50px;
+ height:320px;
+ overflow:hidden;
+ -webkit-transition: all .6s ease;
+ opacity:0;
+ pointer-events:none;
+}
+/* toggles outlines to slide in */
+/*
+ .menu-bar.active {
+ opacity:1;
+ left:0px;
+ background:#000;
+ pointer-events:auto;
+}
+.menu-bar.active .menu {
+ -webkit-transition: all .4s ease;
+ padding:0px;
+ outline:0px;
+}
+.menu-bar.active .menu.profile {
+ border-left:4px solid #e02726;
+}
+.menu-bar.active .menu.reproductor {
+ border-left:4px solid #58bce2;
+}
+.menu-bar.active .menu.settings {
+ margin-top:64px;
+ border-left:4px solid #efe700;
+}
+.menu-btn {
+ position:absolute;
+ top:0px;
+ left:0px;
+ width:50px;
+ height:50px;
+ background:url('http://i.imgur.com/MyRm6gv.png');
+}
+*/
+/* Core Background */
+ /*.container {
+ width:556px!important;
+ padding:136px 210px 176px 190px;
+ margin-left:auto;
+ margin-right:auto;
+ background:url("http://i.imgur.com/xtdiQFH.png");
+ background-size:100% 100%;
+}
+.screen {
+ background:#000;
+ width:150px;
+ height:320px;
+ overflow:hidden;
+ position:relative;
+ -webkit-perspective:600px;
+ margin: 24px auto;
+}
+*/
+
+
+/*4: CORNERS IMAGES.
+.trebol{
+  width: 100%;
+  position: fixed; 
+  left:0; 
+  top:0;
+}
+.heart{
+  width: 100%;
+  position: fixed; 
+  right:0; 
+  top:0;
+}
+.diamond{
+  width: 100%;
+  position: fixed; 
+  right:0; 
+  bottom:0;
+}
+.spade{
+  width: 100%;
+  position: fixed; 
+  left:0; 
+  bottom:0;
+}
+*/
+
+/* MENU 1
+#menu_smartphone {
+  height:100%;  
+  position:absolute;
+  background:#ffffff;
+  top:0;
+  bottom:0;
+  left:-570px;
+  width:570px;
+} 
+#menu_smartphone ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  color:#999999;
+} 
+#menu_smartphone ul li {
+  height:70px;
+  padding-left:10px;
+  line-height:70px;
+} 
+#menu_smartphone ul li:hover {
+  background:#f7f7f7;     
+}
+#menu_smartphone ul li a {
+  color:#999999;
+  text-decoration: none;
+  font-family:'Roboto';
+  font-weight: 400;
+  font-size:25px;
+}
+.background_profil
+{
+  background-image:url(YOUR-URL-IMAGE.png);
+  height: 240px;
+}
+.pics_profil
+{
+  width: 130px;
+  height: 130px;
+  border-radius:50%;
+  background-size: cover;
+  background-image:url(YOUR-URL-IMAGE.png);
+  margin-top: -65px;
+}
+.name_profil
+{
+  font-size: 37px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #666666;
+  margin-top: -50px;
+  margin-left: 140px;
+  margin-bottom: 40px;
+}
+.top
+{
+  background-color:#e51c23;
+  height: 70px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  line-height: 70px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  padding-left: 10px;
+  text-align:left;
+}
+#grey_back {
+  display:none;
+  background-color:#000000;
+  opacity:0.7;
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+}
+.card
+{
+  width:90%;
+  height:300px;
+  background-color:#ffffff;
+  margin:10px;
+  padding: 20px;
+  color:#666666;
+  font-weight: 300;
+  font-size: 36px;
+  text-align: center;
+  font-family: 'Roboto';
+  box-shadow:0 0 2px #999999;
+}
+.menu_btn
+{
+  cursor: pointer;
+  left:0px;
+  margin-top: 16px;
+}
+*/
+___________________________________________________________________________________________
